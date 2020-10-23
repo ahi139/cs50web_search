@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f1f1f1;
+}
+
+#search {
+    border-radius: 25px;
+    padding: 20px;
+}
+
+#search-button {
+    font-color: #f1f1f1;
+    background-color: #606367;
+}
+
+.my-right-align {
+    text-align: end;
+}

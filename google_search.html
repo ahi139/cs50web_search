@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="./search_style.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-end">
+            <nav class="navbar">
+                <ul class="nav navbar-expand-sm justify-content-end my-right-align">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./google_advanced_search.html">Advanced Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./google_image_search.html">Image Search</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 mb-sm-5"></div>
+            <div class="col-sm-4 mt-sm-5">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" class="mt-5 w-50 mx-auto d-block">
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+        <div class="row m-sm-5">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4 justify-content-center">
+                <form action="https://google.com/search">
+                    <div class="row">
+                        <input type="text" class="form-control m-sm-2" placeholder="Enter your search terms" id="search">
+                    </div>
+                    <div class="row">
+                        <button type="submit" class="btn btn-secondary form-control w-75 m-auto" id="search-button">Search!</button>
+                    </div>
+
+                </form>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+
+    </div>
+</body>
+
+</html>
