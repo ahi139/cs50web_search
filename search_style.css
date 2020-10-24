@@ -1,6 +1,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #f2f2f2;
+}
+
+h3 {
+    color: red;
+}
+
+hr {
+    width: 2px;
 }
 
 #search {
@@ -9,8 +16,12 @@ body {
 }
 
 #search-button {
-    font-color: #a3a5a7;
+    color: #a3a5a7;
     background-color: #f2f2f2;
+}
+
+#top-advanced {
+    background-color: lightgray;
 }
 
 .my-right-align {

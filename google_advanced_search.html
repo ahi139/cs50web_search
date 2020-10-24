@@ -19,39 +19,74 @@
 
 <body>
     <div class="container-fluid">
-        <div class="row justify-content-end">
-            <nav class="navbar">
-                <ul class="nav navbar-expand-sm justify-content-end my-right-align">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./google_search.html">Search</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./google_image_search.html">Image Search</a>
-                    </li>
-                </ul>
-            </nav>
+        <div class="row" id="top-advanced">
+            <div class="col-sm-2">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" class="mt-5 w-75 m-auto">
+            </div>
+            <div class="col-sm-10 justify-content-end">
+                <nav class="navbar justify-content-end">
+                    <ul class="nav navbar-expand-sm">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./google_search.html">Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./google_image_search.html">Image Search</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
         </div>
         <div class="row">
-            <div class="col-sm-4 mb-sm-5"></div>
-            <div class="col-sm-4 mt-sm-5">
-                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" class="mt-5 w-50 mx-auto d-block">
+            <div class="col-sm-12 m-sm-5 border border-secondary border-top-0 border-left-0 border-right-0">
+                <h3>Advanced search</p>
             </div>
-            <div class="col-sm-4"></div>
         </div>
         <div class="row m-sm-5">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4 justify-content-center">
-                <form action="https://google.com/search">
-                    <div class="row">
-                        <input type="text" class="form-control m-sm-2" placeholder="Enter your search terms" id="search">
+            <div class="col-sm-12">
+                <form action="https://google.com/search" method="GET">
+                    <div class="row justfy-content-end">
+                        <div class="col-sm-2 align-middle">
+                            <label for="query1">all these words:</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" name="q" class="form-control mb-sm-2" placeholder="Google Search" id="query1">
+                        </div>
                     </div>
                     <div class="row">
-                        <button type="submit" class="btn form-control w-75 m-auto" id="search-button">Search!</button>
+                        <div class="col-sm-2">
+                            <label for="query2">This exact word or phrase:</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" name="q" class="form-control mb-sm-2" placeholder="Google Search" id="query2">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label for="query3">any of these words:</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" name="q" class="form-control mb-sm-2" placeholder="Google Search" id="query3">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label for="query4">none of these words:</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" name="q" class="form-control mb-sm-2" placeholder="Google Search" id="query4">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-5"></div>
+                        <div class="col-sm-3">
+                            <input type="submit" class="btn btn-primary form-control" id="" " value="Google Search ">
+                        </div>
+
                     </div>
 
                 </form>
             </div>
-            <div class="col-sm-4"></div>
         </div>
 
     </div>
